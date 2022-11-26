@@ -78,7 +78,7 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 		'&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
 }).addTo(irsal);
 
-markerIrsal.bindPopup('ERC Irsal').openPopup();
+markerIrsal.bindPopup('ERC Aarsal').openPopup();
 // zoom map to marker
 markerIrsal.on('click', function () {
 	//navigate to a new window
