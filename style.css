@@ -2,7 +2,7 @@ body {
 	width: 100wh;
 	height: 90vh;
 	color: #fff;
-	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background: rgba(44, 42, 42, 0.842);
 	background-size: 400% 400%;
 	-webkit-animation: Gradient 15s ease infinite;
 	-moz-animation: Gradient 15s ease infinite;
@@ -108,4 +108,28 @@ h6 {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
+}
+
+.map {
+	height: 150px;
+}
+
+.card-title {
+	text-align: center;
+}
+
+.btn-primary {
+	width: 100% !important;
+	background-color: rgba(44, 42, 42, 0.842) !important;
+	/* remove button outline */
+	outline: none !important;
+	border-color: rgba(44, 42, 42, 0.842) !important;
+}
+
+.whatsapp {
+	background-color: #25d366 !important;
+	margin-top: 5px;
+}
+.card {
+	background-color: #be2723;
 }
