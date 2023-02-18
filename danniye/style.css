@@ -133,9 +133,3 @@ h6 {
 .card {
 	background-color: #be2723;
 }
-
-.flex-container {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-}

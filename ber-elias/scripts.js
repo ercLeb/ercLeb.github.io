@@ -20,24 +20,6 @@ markerTripoli.on('click', function () {
 });
 //#endregion
 
-//https://maps.google.com/?q=34.4303573,35.8253531
-//#region LSA
-var lsaMap = L.map('lsa-map').setView([34.4303573, 35.8253531], 17);
-var markerLsa = L.marker([34.4303573, 35.8253531]).addTo(lsaMap);
-L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-	maxZoom: 100,
-	attribution:
-		'&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
-}).addTo(lsaMap);
-
-markerLsa.bindPopup('LSA Center').openPopup();
-// zoom map to marker
-markerLsa.on('click', function () {
-	//navigate to a new window
-	window.open('https://goo.gl/maps/iYsGXqzVsFhBKLeB9', '_blank');
-});
-//#endregion
-
 //#region danniye
 var danniyeMap = L.map('danniye-map').setView(
 	[34.38387780838364, 36.02436016880581],
