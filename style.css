@@ -126,7 +126,7 @@ h6 {
   border-color: rgba(44, 42, 42, 0.842) !important;
 }
 .bg-red {
-  background: radial-gradient(circle, rgb(41, 35, 35), #530e15, #410907);
+  background: radial-gradient(circle, #530e15, #410907);
 }
 .whatsapp {
   background-color: #25d366 !important;
